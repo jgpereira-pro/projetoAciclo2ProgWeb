@@ -23,7 +23,7 @@ public class MQConfig {
         return new Queue(queueName, true, false, false);
     }
     private DirectExchange createDirectExchange() {
-        return new DirectExchange("senacrmq");
+        return new DirectExchange("provaciclo2pw1noite");
     }
 
     @PostConstruct
